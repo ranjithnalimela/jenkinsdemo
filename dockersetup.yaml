@@ -37,7 +37,7 @@
         - docker-compose-plugin
       state: present
 
-   - name: Starting Docker
-     service:
-       name: docker
-       state: started
+  - name: Starting Docker
+    service:
+      name: docker
+      state: started
