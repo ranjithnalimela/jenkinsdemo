@@ -15,7 +15,8 @@
 
   - name: Configure web page 
     copy: 
-      content: "<h1>This playbook has been run with the power of Jenkins and created using Ansible</h1>"
+#      content: "<h1>This playbook has been run with the power of Jenkins and created using Ansible</h1>"
+      src: ./index.html
       dest: /var/www/html/index.html
 
   - name: Starting web server
